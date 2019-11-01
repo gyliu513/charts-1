@@ -1,0 +1,45 @@
+charts:
+  - archive: file:portworx-1.0.10.tgz
+    repository-keys:
+      - customRegistryURL
+images:
+- image: portworx/oci-monitor:2.2.0.1
+  references:
+  - repository: oci-monitor:2.2.0.1-amd64
+    pull-repository: portworx/oci-monitor:2.2.0.1
+- image: portworx/px-enterprise:2.2.0.1
+  references:
+  - repository: px-enterprise:2.2.0.1-amd64
+    pull-repository: portworx/px-enterprise:2.2.0.1
+- image: openstorage/stork:2.3.1
+  references:
+  - repository: stork:2.3.1-amd64
+    pull-repository: openstorage/stork:2.3.1
+- image: portworx/lh-config-sync:0.4
+  references:
+  - repository: lh-config-sync:0.4-amd64
+    pull-repository: portworx/lh-config-sync:0.4
+- image: portworx/lh-stork-connector:0.2
+  references:
+  - repository: lh-stork-connector:0.2-amd64
+    pull-repository: portworx/lh-stork-connector:0.2
+- image: portworx/px-etcd-preinstall-hook:v1.2
+  references:
+  - repository: px-etcd-preinstall-hook:v1.2-amd64
+    pull-repository: portworx/px-etcd-preinstall-hook:v1.2
+- image: portworx/px-lighthouse:2.0.4
+  references:
+  - repository: px-lighthouse:2.0.4-amd64
+    pull-repository: portworx/px-lighthouse:2.0.4
+- image: gcr.io/google_containers/kube-scheduler:v1.13.9
+  references:
+  - repository: kube-scheduler:v1.13.9-amd64
+    pull-repository: gcr.io/google_containers/kube-scheduler:v1.13.9
+- image: lachlanevenson/k8s-kubectl:v1.13.9
+  references:
+  - repository: k8s-kubectl:v1.13.9-amd64
+    pull-repository: lachlanevenson/k8s-kubectl:v1.13.9
+- image: busybox:latest
+  references:
+  - repository: busybox:latest-amd64
+    pull-repository: busybox:latest

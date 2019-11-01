@@ -1,0 +1,619 @@
+apiVersion: v1
+entries:
+  ibm-ace-dashboard-icp4i-prod:
+  - appVersion: 11.0.0.6
+    created: 2019-10-31T17:17:46.443352539Z
+    description: IBM App Connect Enterprise dashboard
+    digest: 905f1ef9ec57ddfbc9b4e4eca12ad1d51fb6a3bb03a0f8da64e9ec8bbe9d80fe
+    icon: https://raw.githubusercontent.com/ot4i/ace-docker/master/app_connect_light_256x256.png
+    keywords:
+    - amd64
+    - ICP
+    - ICPRHOCP
+    - ICPROKS
+    - ACE
+    - Integration
+    - IIB
+    - WMB
+    - MQSI
+    - Websphere
+    - Message
+    - Broker
+    - Bus
+    - Commercial
+    kubeVersion: '>=1.11.0'
+    name: ibm-ace-dashboard-icp4i-prod
+    tillerVersion: '>=2.10.0'
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/entitled/ibm-ace-dashboard-icp4i-prod-2.2.0.tgz
+    version: 2.2.0
+  - appVersion: 11.0.0.5.1
+    created: 2019-09-26T13:26:35.81432182Z
+    description: IBM App Connect Enterprise dashboard
+    digest: 8e56bdd95fece454cf0987468ee5741bc078f6bf3e218444400a8d4aaa34a1ec
+    icon: https://raw.githubusercontent.com/ot4i/ace-docker/master/app_connect_light_256x256.png
+    keywords:
+    - amd64
+    - ICP
+    - ICPRHOCP
+    - ICPROKS
+    - ACE
+    - Integration
+    - IIB
+    - WMB
+    - MQSI
+    - Websphere
+    - Message
+    - Broker
+    - Bus
+    - Commercial
+    kubeVersion: '>=1.11.0'
+    name: ibm-ace-dashboard-icp4i-prod
+    tillerVersion: '>=2.9.1'
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/entitled/ibm-ace-dashboard-icp4i-prod-2.1.0.tgz
+    version: 2.1.0
+  ibm-ace-server-icp4i-prod:
+  - appVersion: 11.0.0.6
+    created: 2019-10-31T17:17:46.456475879Z
+    description: This helm chart is used by the IBM App Connect Dashboard to deploy
+      servers
+    digest: 72e0f04836f0e3564c5d87603a51e7bb36a144b2c0e645ff439869e52ce0b176
+    icon: https://raw.githubusercontent.com/ot4i/ace-helm/master/integration_server.svg?sanitize=true
+    keywords:
+    - amd64
+    - ICPRHOCP
+    - ICPROKS
+    - ACE
+    - Integration
+    - IIB
+    - WMB
+    - MQSI
+    - Websphere
+    - Message
+    - Broker
+    - Bus
+    - Commercial
+    kubeVersion: '>=1.11.0'
+    name: ibm-ace-server-icp4i-prod
+    tillerVersion: '>=2.10.0'
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/entitled/ibm-ace-server-icp4i-prod-2.2.0.tgz
+    version: 2.2.0
+  - appVersion: 11.0.0.5
+    created: 2019-09-26T13:26:35.829467736Z
+    description: This helm chart is used by the IBM App Connect Dashboard to deploy
+      servers
+    digest: d13f530bba96889ed543dff6f74084f5ec198cc0f17254928c86e679f2fd381c
+    icon: https://raw.githubusercontent.com/ot4i/ace-helm/master/integration_server.svg?sanitize=true
+    keywords:
+    - amd64
+    - ICP
+    - ICPRHOCP
+    - ICPROKS
+    - ACE
+    - Integration
+    - IIB
+    - WMB
+    - MQSI
+    - Websphere
+    - Message
+    - Broker
+    - Bus
+    - Commercial
+    kubeVersion: '>=1.11.0'
+    name: ibm-ace-server-icp4i-prod
+    tillerVersion: '>=2.9.1'
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/entitled/ibm-ace-server-icp4i-prod-2.1.0.tgz
+    version: 2.1.0
+  ibm-apiconnect-icp4i-prod:
+  - appVersion: 2018.4.1.7
+    created: 2019-10-31T15:22:06.768057Z
+    description: IBM Cloud Pak for Integration - API Connect
+    digest: 45698c0198a3116c426371ccb25533ad80397ea41a25c4536b35164a2526beb0
+    engine: gotpl
+    home: https://www.ibm.com/cloud/api-connect
+    icon: https://avatars2.githubusercontent.com/u/17088962?s=200&v=4
+    keywords:
+    - API
+    - Gateway
+    - Commercial
+    - amd64
+    - ICP
+    - ICPRHOCP
+    - Analytics
+    - Security
+    - Integration
+    kubeVersion: '>=1.10.0'
+    name: ibm-apiconnect-icp4i-prod
+    tillerVersion: '>=2.9.1'
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/entitled/ibm-apiconnect-icp4i-prod-1.0.3.tgz
+    version: 1.0.3
+  - appVersion: 2018.4.1.7
+    created: 2019-09-25T18:27:42.751291776Z
+    description: IBM Cloud Pak for Integration - API Connect
+    digest: a7cd64dd1808d8c7f9ffd3cd031491b77a98b01ddd4647d3eca1099c2d9aa08f
+    engine: gotpl
+    home: https://www.ibm.com/cloud/api-connect
+    icon: https://avatars2.githubusercontent.com/u/17088962?s=200&v=4
+    keywords:
+    - API
+    - Gateway
+    - Commercial
+    - amd64
+    - ICP
+    - ICPRHOCP
+    - Analytics
+    - Security
+    - Integration
+    kubeVersion: '>=1.10.0'
+    name: ibm-apiconnect-icp4i-prod
+    tillerVersion: '>=2.9.1'
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/entitled/ibm-apiconnect-icp4i-prod-1.0.2.tgz
+    version: 1.0.2
+  ibm-aspera-hsts-icp4i:
+  - apiVersion: v1
+    appVersion: 3.9.1
+    created: 2019-10-31T15:22:06.775809373Z
+    description: IBM Aspera High-Speed Transfer Server
+    digest: 235ef1ccb31b3859327acf9aeefc431663ea317a712aa27c2cb498f58c1c6baa
+    icon: https://raw.githubusercontent.com/IBM/charts/master/stable/ibm-aspera-cli/ibm_cloud_pak/pak_extensions/logo/aspera.svg?sanitize=true
+    keywords:
+    - Aspera
+    - amd64
+    - Commercial
+    - Operations
+    - ICP
+    - ICPRHOCP
+    - ICPRHOS
+    kubeVersion: '>= 1.9.1'
+    maintainers:
+    - name: IBM Aspera
+    name: ibm-aspera-hsts-icp4i
+    tillerVersion: '>=2.9.1'
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/entitled/ibm-aspera-hsts-icp4i-1.2.3.tgz
+    version: 1.2.3
+  - apiVersion: v1
+    appVersion: 3.9.1
+    created: 2019-09-27T20:56:45.209472252Z
+    description: IBM Aspera High-Speed Transfer Server
+    digest: be3e04ca190b908ece40f10a12322e8ba1f500e6132d3452ea27629038bebb7e
+    icon: https://raw.githubusercontent.com/IBM/charts/master/stable/ibm-aspera-cli/ibm_cloud_pak/pak_extensions/logo/aspera.svg?sanitize=true
+    keywords:
+    - Aspera
+    - amd64
+    - Commercial
+    - Operations
+    - ICP
+    - ICPRHOCP
+    - ICPRHOS
+    kubeVersion: '>= 1.9.1'
+    maintainers:
+    - name: IBM Aspera
+    name: ibm-aspera-hsts-icp4i
+    tillerVersion: '>=2.9.1'
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/entitled/ibm-aspera-hsts-icp4i-1.2.2.tgz
+    version: 1.2.2
+  ibm-aspera-hsts-prod:
+  - apiVersion: v1
+    appVersion: 3.9.1
+    created: 2019-09-26T20:24:44.166334275Z
+    description: IBM Aspera High-Speed Transfer Server
+    digest: d20b1219089bf77ab15e2f24a81b07d2a832bc91eb6f115a2a763204dfc5df9b
+    icon: https://raw.githubusercontent.com/IBM/charts/master/stable/ibm-aspera-cli/ibm_cloud_pak/pak_extensions/logo/aspera.svg?sanitize=true
+    keywords:
+    - Aspera
+    - amd64
+    - Commercial
+    - Operations
+    - ICP
+    - ICPRHOCP
+    - ICPRHOS
+    kubeVersion: '>= 1.9.1'
+    maintainers:
+    - name: IBM Aspera
+    name: ibm-aspera-hsts-prod
+    tillerVersion: '>=2.9.1'
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/entitled/ibm-aspera-hsts-prod-1.2.2.tgz
+    version: 1.2.2
+  ibm-datapower-icp4i:
+  - apiVersion: v1
+    appVersion: 2018.4.1.7
+    created: 2019-09-25T13:28:21.98527057Z
+    description: IBM DataPower Gateway
+    digest: b544bb2bc4dc3adc6e07b8b85b30b4d295ec3e314192b9b7dffd0a8a8b967604
+    home: http://www-03.ibm.com/software/products/en/datapower-gateway
+    icon: https://avatars1.githubusercontent.com/u/8836442?v=4&s=200
+    keywords:
+    - DataPower
+    - Gateway
+    - API
+    - Security
+    - IDG
+    - amd64
+    - Commercial
+    - ICP
+    kubeVersion: '>=1.9.3'
+    name: ibm-datapower-icp4i
+    sources:
+    - https://github.com/IBM/charts/tree/master/stable
+    tillerVersion: '>=2.7.3'
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/entitled/ibm-datapower-icp4i-1.0.4.tgz
+    version: 1.0.4
+  ibm-eventstreams-rhel-icp4i-prod:
+  - appVersion: 1.3.2
+    created: 2019-09-25T15:42:12.085153862Z
+    description: IBM Event Streams based on Apache Kafka.
+    digest: 263fd8369271275862f0f6ee6156caec427d4b6ba4e75a94ed699b3ecee9dadd
+    icon: https://raw.githubusercontent.com/IBM/event-streams/master/es/es_icon_light.png
+    keywords:
+    - kafka
+    - amd64
+    - Commercial
+    - ICPRHOCP
+    - ICPRHOS
+    - Integration
+    kubeVersion: '>=1.9.0'
+    name: ibm-eventstreams-rhel-icp4i-prod
+    tillerVersion: '>=2.9.1'
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/entitled/ibm-eventstreams-rhel-icp4i-prod-1.3.2.tgz
+    version: 1.3.2
+  ibm-icp4i-asset-repo-prod:
+  - appVersion: 2019.3.2.2
+    created: 2019-10-31T18:12:51.548576653Z
+    description: A Helm chart for the IBM Cloud Pak for Integration Asset Repository
+    digest: ad58a34f62633e7ef83be605cc651af315dae0633dde0611f7a65730899790b3
+    keywords:
+    - ACE
+    - API
+    - API Connect
+    - App Connect
+    - Application
+    - Aspera
+    - Asset Repository
+    - ICP4I
+    - IBM Cloud Pak for Integration
+    - Commercial
+    - Connect
+    - Data
+    - DataPower
+    - Event Streams
+    - Events
+    - ICPRHOCP
+    - ICPROKS
+    - Insight
+    - Integration
+    - MQ
+    - Messaging
+    - Transfer
+    - amd64
+    kubeVersion: '>=1.11'
+    name: ibm-icp4i-asset-repo-prod
+    tillerVersion: '>=2.9.1'
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/entitled/ibm-icp4i-asset-repo-prod-2.2.0.tgz
+    version: 2.2.0
+  - appVersion: 2019.3.2.1
+    created: 2019-10-11T06:48:03.122752554Z
+    description: A Helm chart for the IBM Cloud Pak for Integration Asset Repository
+    digest: 1f5ea2d5c8e12a09423a76681462f90b3d54d8bdcfbc332881eb2c54fe857dac
+    keywords:
+    - ACE
+    - API
+    - API Connect
+    - App Connect
+    - Application
+    - Aspera
+    - Asset Repository
+    - ICP4I
+    - IBM Cloud Pak for Integration
+    - Commercial
+    - Connect
+    - Data
+    - DataPower
+    - Event Streams
+    - Events
+    - ICPRHOCP
+    - ICPROKS
+    - Insight
+    - Integration
+    - MQ
+    - Messaging
+    - Transfer
+    - amd64
+    kubeVersion: '>=1.11'
+    name: ibm-icp4i-asset-repo-prod
+    tillerVersion: '>=2.9.1'
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/entitled/ibm-icp4i-asset-repo-prod-2.1.1.tgz
+    version: 2.1.1
+  - appVersion: 2019.3.2
+    created: 2019-09-26T13:58:25.668068831Z
+    description: A Helm chart for the IBM Cloud Pak for Integration Asset Repository
+    digest: 08af4052bdeebeeec4036972d8b0290d50420f440cfb7d22a759679f1ce35e52
+    keywords:
+    - ACE
+    - API
+    - API Connect
+    - App Connect
+    - Application
+    - Aspera
+    - Asset Repository
+    - ICP4I
+    - IBM Cloud Pak for Integration
+    - Commercial
+    - Connect
+    - Data
+    - DataPower
+    - Event Streams
+    - Events
+    - ICPRHOCP
+    - ICPROKS
+    - Insight
+    - Integration
+    - MQ
+    - Messaging
+    - Transfer
+    - amd64
+    kubeVersion: '>=1.11'
+    name: ibm-icp4i-asset-repo-prod
+    tillerVersion: '>=2.9.1'
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/entitled/ibm-icp4i-asset-repo-prod-2.1.0.tgz
+    version: 2.1.0
+  ibm-icp4i-prod:
+  - appVersion: 2019.3.2.2
+    created: 2019-10-31T17:17:46.463475545Z
+    description: A Helm chart for the IBM Cloud Pak for Integration Navigator
+    digest: b6fd0c247439574cb00054ccc5978534090fe52ac7ac155dd685188ff6abead7
+    keywords:
+    - ACE
+    - API
+    - API Connect
+    - App Connect
+    - Application
+    - Aspera
+    - ICP4I
+    - Cloud Pak for Integration
+    - Commercial
+    - Connect
+    - Data
+    - DataPower
+    - Event Streams
+    - Events
+    - ICPRHOCP
+    - ICPROKS
+    - Insight
+    - Integration
+    - MQ
+    - Messaging
+    - Navigator
+    - Platform
+    - Transfer
+    - amd64
+    kubeVersion: '>=1.11'
+    name: ibm-icp4i-prod
+    tillerVersion: '>=2.9.1'
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/entitled/ibm-icp4i-prod-2.2.0.tgz
+    version: 2.2.0
+  - appVersion: 2019.3.2.1
+    created: 2019-10-11T06:48:03.126144492Z
+    description: A Helm chart for the IBM Cloud Pak for Integration Navigator
+    digest: c701c061d6bd29badfaee5523d0c781f9051afec7f489426955a5072b481ee13
+    keywords:
+    - ACE
+    - API
+    - API Connect
+    - App Connect
+    - Application
+    - Aspera
+    - ICP4I
+    - Cloud Pak for Integration
+    - Commercial
+    - Connect
+    - Data
+    - DataPower
+    - Event Streams
+    - Events
+    - ICPRHOCP
+    - ICPROKS
+    - Insight
+    - Integration
+    - MQ
+    - Messaging
+    - Navigator
+    - Platform
+    - Transfer
+    - amd64
+    kubeVersion: '>=1.11'
+    name: ibm-icp4i-prod
+    tillerVersion: '>=2.9.1'
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/entitled/ibm-icp4i-prod-2.1.2.tgz
+    version: 2.1.2
+  - appVersion: 2019.3.1
+    created: 2019-09-28T12:28:59.903207776Z
+    description: A Helm chart for the IBM Cloud Pak for Integration Navigator
+    digest: ddf8caa2ac449d7b647c76a468f39a584bf55ceaa44da62fcce5b27d53baf088
+    keywords:
+    - ACE
+    - API
+    - API Connect
+    - App Connect
+    - Application
+    - Aspera
+    - ICP4I
+    - Cloud Pak for Integration
+    - Commercial
+    - Connect
+    - Data
+    - DataPower
+    - Event Streams
+    - Events
+    - ICPRHOCP
+    - ICPROKS
+    - Insight
+    - Integration
+    - MQ
+    - Messaging
+    - Navigator
+    - Platform
+    - Transfer
+    - amd64
+    kubeVersion: '>=1.11'
+    name: ibm-icp4i-prod
+    tillerVersion: '>=2.9.1'
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/entitled/ibm-icp4i-prod-2.1.1.tgz
+    version: 2.1.1
+  - appVersion: 2019.3.1
+    created: 2019-09-23T19:31:09.5418174Z
+    description: A Helm chart for the IBM Cloud Pak for Integration Navigator
+    digest: 8e5360c5399192e22bd29d7c1d69a277f0f2e8671d54959e00bf3348b5939a11
+    keywords:
+    - ACE
+    - API
+    - API Connect
+    - App Connect
+    - Application
+    - Aspera
+    - ICP4I
+    - Cloud Pak for Integration
+    - Commercial
+    - Connect
+    - Data
+    - DataPower
+    - Event Streams
+    - Events
+    - ICPRHOCP
+    - ICPROKS
+    - Insight
+    - Integration
+    - MQ
+    - Messaging
+    - Navigator
+    - Platform
+    - Transfer
+    - amd64
+    kubeVersion: '>=1.11'
+    name: ibm-icp4i-prod
+    tillerVersion: '>=2.9.1'
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/entitled/ibm-icp4i-prod-2.1.0.tgz
+    version: 2.1.0
+  ibm-icp4i-tracing-prod:
+  - apiVersion: v1
+    appVersion: 2019.3.2.2
+    created: 2019-10-31T18:12:51.551260587Z
+    description: A Helm chart for the IBM Cloud Platform For Integration Operations
+      Dashboard Add-on (icp4i-od)
+    digest: 2ef0825d0266d1b30fe3e5297d82c6c0b69d099c0bf56f76b5aa7153f51113ec
+    keywords:
+    - ACE
+    - OD
+    - Operations Dashboard
+    - CIP
+    - Cloud Integration Platform
+    - Commercial
+    - Data
+    - DataPower
+    - ICPRHOCP
+    - Integration
+    - MQ
+    - Messaging
+    - Platform
+    - amd64
+    - Tracing
+    kubeVersion: '>=1.11.0'
+    name: ibm-icp4i-tracing-prod
+    tillerVersion: '>=2.9.1'
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/entitled/ibm-icp4i-tracing-prod-1.0.0.tgz
+    version: 1.0.0
+  ibm-mqadvanced-server-integration-prod:
+  - apiVersion: v1
+    appVersion: 9.1.3.0
+    created: 2019-10-31T17:17:46.468089886Z
+    description: IBM MQ queue manager for Cloud Pak for Integration
+    digest: b16c09c0967bbe89858099f06e4747ae786f4e661bda29a9b3865537e7aa0b39
+    icon: https://raw.githubusercontent.com/IBM/charts/master/logo/ibm-mq-blue-icon.png
+    keywords:
+    - amd64
+    - Commercial
+    - ICP
+    - ICPRHOCP
+    - message queue
+    - Integration
+    kubeVersion: '>=1.11.0'
+    name: ibm-mqadvanced-server-integration-prod
+    tillerVersion: '>=2.9.1'
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/entitled/ibm-mqadvanced-server-integration-prod-4.1.0.tgz
+    version: 4.1.0
+  - apiVersion: v1
+    appVersion: 9.1.3.0
+    created: 2019-10-01T16:18:29.098458372Z
+    description: IBM MQ queue manager for Cloud Pak for Integration
+    digest: f45c44c8874b87b15a7939c70635c06c02bff503a7031d041fe28de694e687d6
+    icon: https://raw.githubusercontent.com/IBM/charts/master/logo/ibm-mq-blue-icon.png
+    keywords:
+    - amd64
+    - Commercial
+    - ICP
+    - ICPRHOCP
+    - message queue
+    - Integration
+    kubeVersion: '>=1.11.0'
+    name: ibm-mqadvanced-server-integration-prod
+    tillerVersion: '>=2.9.1'
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/entitled/ibm-mqadvanced-server-integration-prod-4.0.2.tgz
+    version: 4.0.2
+  - apiVersion: v1
+    appVersion: 9.1.3.0
+    created: 2019-09-25T15:42:12.089279093Z
+    description: IBM MQ queue manager for Cloud Pak for Integration
+    digest: ab5556ecc059591a9d68878b3545888e4ed1431424d4bd11203f7e328d2c9edf
+    icon: https://raw.githubusercontent.com/IBM/charts/master/logo/ibm-mq-blue-icon.png
+    keywords:
+    - amd64
+    - Commercial
+    - ICP
+    - ICPRHOCP
+    - message queue
+    - Integration
+    kubeVersion: '>=1.11.0'
+    name: ibm-mqadvanced-server-integration-prod
+    tillerVersion: '>=2.9.1'
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/entitled/ibm-mqadvanced-server-integration-prod-4.0.1.tgz
+    version: 4.0.1
+  - apiVersion: v1
+    appVersion: 9.1.3.0
+    created: 2019-09-25T13:28:21.988141372Z
+    description: IBM MQ queue manager for Cloud Pak for Integration
+    digest: 5a9a785dfaed02b7588cefc270c512792c73702cafaa1fd13cc4ee80f3a6f54c
+    icon: https://raw.githubusercontent.com/IBM/charts/master/logo/ibm-mq-blue-icon.png
+    keywords:
+    - amd64
+    - Commercial
+    - ICP
+    - ICPRHOCP
+    - message queue
+    - Integration
+    kubeVersion: '>=1.11.0'
+    name: ibm-mqadvanced-server-integration-prod
+    tillerVersion: '>=2.9.1'
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/entitled/ibm-mqadvanced-server-integration-prod-4.0.0.tgz
+    version: 4.0.0
+generated: 2019-10-31T21:28:26.667800343Z
